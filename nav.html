@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+        <style>
+            nav{
+                background-color: #f2f2f3;
+            }      
+            
+        	#main_menu{
+        		float: right;
+        		list-style: none;
+        	}
+        	#main_menu li{
+                font-family: "돋움";
+        		float: left;
+        		border:none;
+        		text-align: center;
+        	}
+        	
+        	#main_menu a{	
+        		padding: 15px 30px;
+        	}
+        	
+        	#main_menu a:hover{
+        		background-color: #ddd;
+        	}
+        	
+        	#side_menu{
+        		float: right;
+        		list-style: none;
+        		text-align: center;
+        	}
+        	
+        	#side_menu li{
+        		float: left;
+        		border-right: 1px solid gray;
+        	}
+        	
+        	#side_menu li:last-child{
+        		border: none;
+        	}
+        	
+        	#side_menu a{
+        		padding: 5px 10px;
+        	}
+        	
+        	li a{
+        		display: inline-block;
+        		color: inherit;
+        		text-decoration: none;
+        	}
+        </style>
+</head>
+<body> 
+	<nav>
+        <a href="index.jsp">
+		<img src="img/logo.png" alt="logo" height=80px>
+		</a>
+        <ul id="main_menu">
+        	<li><a href="find_board.jsp">찾습니다</a></li>
+        	<li><a href="#">찾아가세요</a></li>
+        	<li><a href="#">유기물품</a></li>
+        	<li><a href="#">My page</a></li>
+        </ul>
+        <ul id="side_menu">
+            <li></li>
+        	<li><a href="login.jsp">로그인</a></li>
+        	<li><a href="join.jsp">회원가입</a></li>
+        </ul>
+    </nav> 
+</body>
+</html>
